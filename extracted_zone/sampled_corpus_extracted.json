@@ -1,0 +1,39 @@
+[
+  {
+    "record_id": "play_721869bd-fa33-43cf-8f36-db91d3eb43c4",
+    "source": "play_store",
+    "original_text": "good to remember",
+    "verbatim_quote": "good to remember",
+    "is_retrieval_failure": false,
+    "memory_cues_present": [],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": 1,
+    "outcome": null,
+    "photo_type": null,
+    "model_name": "gemini-flash-latest",
+    "extraction_timestamp": "2026-09-25T07:56:25.325139Z",
+    "raw_model_response": "{\n  \"is_retrieval_failure\": false,\n  \"memory_cues_present\": [],\n  \"memory_cues_missing\": [],\n  \"search_behavior\": null,\n  \"failure_stage\": null,\n  \"workaround_used\": null,\n  \"emotional_intensity\": 1,\n  \"outcome\": null,\n  \"photo_type\": null,\n  \"verbatim_quote\": \"good to remember\"\n}"
+  },
+  {
+    "record_id": "play_c8a7e40f-cd79-48f8-883c-8d8494dd20fc",
+    "source": "play_store",
+    "original_text": "this is really very helpfully app so nice app I'm using app from past 2 years so good experience \ud83d\ude0d for search your old photos",
+    "verbatim_quote": "this is really very helpfully app so nice app I'm using app from past 2 years so good experience \ud83d\ude0d for search your old photos",
+    "is_retrieval_failure": false,
+    "memory_cues_present": [],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": 4,
+    "outcome": null,
+    "photo_type": null,
+    "model_name": "gemini-flash-latest",
+    "extraction_timestamp": "2026-09-25T07:58:03.073130Z",
+    "raw_model_response": "{\n  \"is_retrieval_failure\": false,\n  \"memory_cues_present\": [],\n  \"memory_cues_missing\": [],\n  \"search_behavior\": null,\n  \"failure_stage\": null,\n  \"workaround_used\": null,\n  \"emotional_intensity\": 4,\n  \"outcome\": null,\n  \"photo_type\": \"old photos\",\n  \"verbatim_quote\": \"this is really very helpfully app so nice app I'm using app from past 2 years so good experience \ud83d\ude0d for search your old photos\"\n}",
+    "photo_type_validation_issue": true
+  }
+]

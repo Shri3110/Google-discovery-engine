@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Strategist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="logo-area">
+                <svg viewBox="0 0 24 24" class="logo-icon"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="nav-items">
+                <div class="nav-item active" title="Discover">
+                    <svg viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                </div>
+                <div class="nav-item" title="History">
+                    <svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <div class="nav-item" title="Projects">
+                    <svg viewBox="0 0 24 24"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+                </div>
+            </div>
+            <div class="nav-bottom">
+                <div class="nav-item" title="Settings">
+                    <svg viewBox="0 0 24 24"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-title">
+                    <h1>AI Product Strategist</h1>
+                    <span class="badge">Research Engine</span>
+                </div>
+                <div class="user-profile">
+                    <div class="avatar"></div>
+                </div>
+            </header>
+
+            <div class="container">
+        <div class="search-section">
+            <div class="search-input-wrapper">
+                <input type="text" id="query-input" placeholder="Ask anything about user pain points, photo retrieval failures, or feature requests..." onkeypress="handleEnter(event)">
+                <button onclick="runDiscovery()" class="discover-btn">
+                    <svg class="svg-icon" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg>
+                    Discover
+                </button>
+            </div>
+            
+            <div class="suggestions">
+                <button class="pill" onclick="setQuery('Why do users fail to find screenshots?')">"Why do users fail to find screenshots?"</button>
+                <button class="pill" onclick="setQuery('Are there complaints about finding pets?')">"Are there complaints about finding pets?"</button>
+                <button class="pill" onclick="setQuery('How often do people forget when a photo was taken?')">"How often do people forget when a photo was taken?"</button>
+            </div>
+        </div>
+
+
+
+        <!-- Static Insights Section (always visible initially) -->
+        <div id="static-insights">
+            <div class="insight-card static-card">
+                <div class="card-header">
+                    <h2>Key Research Insight</h2>
+                </div>
+                <div class="card-content">
+                    <p>Users often remember contextual information about a photo rather than exact searchable attributes. When retrieval fails, users frequently fall back to manual timeline scrolling, keyword guessing, or abandoning the search.</p>
+                </div>
+            </div>
+
+            <div class="insight-card static-card" style="margin-top: 2rem;">
+                <div class="card-header">
+                    <h2>Observed Search Behaviors</h2>
+                </div>
+                <div class="behaviors-container">
+                    <div class="behavior-box">
+                        <div class="behavior-label">Manual Scroll</div>
+                        <div class="behavior-value">304</div>
+                    </div>
+                    <div class="behavior-box">
+                        <div class="behavior-label">Keyword Guess</div>
+                        <div class="behavior-value">184</div>
+                    </div>
+                    <div class="behavior-box">
+                        <div class="behavior-label">Gave Up</div>
+                        <div class="behavior-value">167</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section (hidden initially) -->
+        <div id="results-container" class="results-container hidden">
+            <!-- Loading State -->
+            <div id="loading-state" class="hidden">
+                Synthesizing research evidence...
+            </div>
+            
+
+            <div id="insight-card" class="insight-card hidden">
+                <div class="card-header">
+                    <h2>AI Product Strategist Insight:</h2>
+                </div>
+                <div class="card-content" id="insight-content"></div>
+            </div>
+        </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>

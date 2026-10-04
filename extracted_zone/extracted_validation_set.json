@@ -1,0 +1,762 @@
+[
+  {
+    "id": "play_2c69117c-ccdc-4ca1-8c00-1ebd2162e145",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "keyword_guess",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 3,
+    "outcome": "found_eventually",
+    "verbatim_quote": "when the screenshots folder is opened it displays \u2018photos missing from search turn on backup\u2019 messag",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_7e2755dc-591c-40ae-af0e-a318f38659e7",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "it's good but the fact that it doesn't show you everything immediately makes me mad bc i keep having",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_23dacf60-656a-44e6-8d7b-fd50ef90f132",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "never_found",
+    "verbatim_quote": "very bad navigation. whenever i have to send or share a photo i never find it in photos, because it ",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_231a30ba-eec0-46e7-ba22-d0b13dc00636",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "keyword_guess",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "can't download photos! shared album photos went missing after user deleted them from their phone eve",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_5228f121-3a9c-4483-a1a9-161798df55e9",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "screenshots buried, why? it's the thing most of us use the most, and it's buried like they don't wan",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_15703e43-8d6a-49ea-9fd0-4a99b48ddffd",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "it's just horrible, a real maze of categories, many categories placed in different places on the scr",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_51d1a8aa-880e-4d6b-a9f3-8af8a27a7549",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 3,
+    "outcome": "found_eventually",
+    "verbatim_quote": "please keep the camera and the screenshot folder different. it is difficult to find files. and also ",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_b573ae36-9ac1-4e46-8ede-beb381d3c891",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "looks like you've finally fixed the screenshot folder access. recent updates were a mess but now whe",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_6f2c442b-d843-4d13-b20a-858ba3a84116",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "of course google photos management of the app is what i like every app is categorized perfectly from",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_c0c9963d-e8b9-4f87-8618-f86840434188",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "it is virtually impossible to find any of your pictures. oh, that picture you can't find in your cam",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_65361a96-d52c-4e24-a67a-ff28204c4ccf",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "hello, when i take a screenshot of my government phone's signal,then i am not able to find my screen",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_6e9c00fd-a26b-457e-a8be-99c7fe56d5e9",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "keyword_guess",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "some screenshots doesn't have a search option.",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_f5059ad2-af1f-4722-a280-a5ba8d00fab8",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "it's unbelievable that default photo app from google is lacking basic functionality. i want to see a",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_0039e365-5b24-4fd7-9514-214b1394d65f",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "this is the best photo-video viewing app within multifunction like photo editing, ai creations, back",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_7ec8ffcc-0b1c-4be1-9185-cca4352b0043",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "currently use it to back up my photos. only thing that would make this better would be if we had the",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_f6737f37-2527-454e-81f5-4df9d712e172",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "it's full of bugs. if i open the google photos app, i can find any photo, but if i open it from any ",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_fcd2a58d-d7cc-4038-abae-9c30ac27d3e1",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "for a couple of weeks since the new update, some photos such as screenshots and downloads are not be",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_8a14212c-87ae-405b-b649-a7a42a6bd8b4",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "absolutely terrible app. no way to have all your images in a single location, pictures are auto stor",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_60b9e928-9dc0-4e6c-a18e-4b8607acd227",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "keyword_guess",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "how come i search a birthday cake image and sent it to my niece, what a shame that what she received",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_e84732fc-77a0-40ea-ac81-bd4c2541e502",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "every single time i open the app it pops up a \"beautiful\" ai image and a \"try it out!\" how many time",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_4c3065ba-7660-4a99-80fd-7307a0d46b11",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "keyword_guess",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "i used to really like this app but things have gotten so confusing that it's nearly impossible to fi",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_a36455d0-2890-4f34-b7be-800d1df1bdf5",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "keyword_guess",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "never_found",
+    "verbatim_quote": "1) only like 7 colours to use for the pen...in 2026 when there are 6 billion colours available on a ",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_11a7cd1b-f1b0-4237-85a1-393aa0289689",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "why does my screenshot folder contain videos from my whatsapp folder? these videos are *not* in my o",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_d04d961a-091e-4a38-8d54-38b917203f4f",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "recently google photos started putting an animated white outline around people in the photo. this is",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_58c7e57c-afb6-46e9-9d21-f6edeee73174",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "keyword_guess",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 4,
+    "outcome": "found_eventually",
+    "verbatim_quote": "next time i'll get a phone under another name. i hate this app. constantly trying to trick you into ",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_eea8ba27-39e8-4553-b883-56c81cb73b3b",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "used to like this app alot until couple years ago. now they just want to make everything complicated",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_2422f4a8-4b51-4562-a90e-cacf10132834",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "i've used this app for well over a decade. all of my albums are gone with only the albums from faceb",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_80445e17-3bb6-4048-b29b-67d156325974",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 3,
+    "outcome": "found_eventually",
+    "verbatim_quote": "when using gallery now i see screenshots and downloaded videos in camera folder. this is absolutely ",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_ca2387fa-7ec1-40b6-b359-1cd4fb264798",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "lost my photos and my screenshots do not save. worst gallery app ever. do not use. bloarware.",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_3d297b25-c6a2-40cf-b82d-524a6b80c285",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "makes screenshots and downloaded images incredibly difficult to find.",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_a130c578-30ff-48df-9c5d-97fb11c929a3",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "never_found",
+    "verbatim_quote": "great interface, got the hang of it fast. reliable with photo backup and saving. recently i made a s",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_9747af36-1fcb-444c-b832-57331c9017f6",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "keyword_guess",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "if in app folder are categorised then it will be more convenient like camera, screenshot, download s",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_f819fa3b-e020-4c5c-a29d-a9df70bca752",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 4,
+    "outcome": "found_eventually",
+    "verbatim_quote": "terrible. tries to steal ur data all the time. screenshots are impossible to find unless you know. i",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_4f0841a1-87c6-4f9e-9741-841f5327ac47",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 4,
+    "outcome": "found_eventually",
+    "verbatim_quote": "i've hated this app for many a year now. sure, it works, but i despise how it's organized and of cou",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_468e0536-e25e-424e-a7dd-03fb05762ad8",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "why this is happening? it is often impossible to edit photos. i'll crop one, then go to attach it so",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_ff018987-cf04-4a1f-b0c6-ec4d0400bd8e",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "place"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "google photos is a great gallery app, but it is missing one of the most basic and essential features",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_5ab70281-f7f9-4ff2-ad18-be244b6d24c1",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "new remix ai function sometimes works, sometimes doesn't. also, the new folder system is bad. old ap",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_326ce875-ef2e-42fd-a416-eddae0815aa6",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "well i take a selfie can't find photos but can find screenshots but still rate 5 stars...where are m",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_dea238aa-7d1c-41f5-8231-efc221e65161",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "app_context"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "the new ai face grouping won't allow use of photos or seeing photos at all. it's stuck on a screensh",
+    "photo_type": "screenshot"
+  },
+  {
+    "id": "play_3be0aeaf-a13d-46cc-be71-6b05b5381d6b",
+    "source": "play_store",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "object"
+    ],
+    "memory_cues_missing": [
+      "exact_date",
+      "search_keywords"
+    ],
+    "search_behavior": "manual_scroll",
+    "failure_stage": "interpretation",
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": "found_eventually",
+    "verbatim_quote": "an update happened and now all my albums are gone, it's not sorting out my screenshots anymore, and ",
+    "photo_type": "screenshot"
+  }
+]

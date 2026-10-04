@@ -1,0 +1,150 @@
+{
+  "metrics": {
+    "successful_requests": 5,
+    "json_errors": 0,
+    "429_errors": 0,
+    "other_errors": 0,
+    "latencies": [
+      2.0983593463897705,
+      1.5401582717895508,
+      3.0381243228912354,
+      3.501952886581421,
+      1.5265181064605713
+    ],
+    "schema_corrected_count": 4,
+    "null_fields": 21,
+    "total_fields": 30,
+    "total_elapsed_time": 11.705112934112549,
+    "requests_per_minute": 25.6298253326289,
+    "avg_latency": 2.34102258682251,
+    "median_latency": 2.0983593463897705
+  },
+  "results": [
+    {
+      "experiment_id": "CONFIG_A",
+      "model_name": "openai/gpt-oss-120b",
+      "max_tokens": 800,
+      "concurrency": 1,
+      "source_record_id": "play_3e582f87-caee-41fb-8f62-d38cdedd94dd",
+      "original_text": "\u2705one is important, as I want to search for particular image but I cannot search. \ud83d\udc4dThank you",
+      "raw_model_response": "{\"is_retrieval_failure\":null,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":\"cannot search\",\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":\"I want to search for particular image but I cannot search\"}",
+      "parsed_extraction": {
+        "is_retrieval_failure": null,
+        "memory_cues_present": [],
+        "memory_cues_missing": [],
+        "search_behavior": null,
+        "failure_stage": null,
+        "workaround_used": null,
+        "emotional_intensity": null,
+        "outcome": null,
+        "photo_type": null,
+        "verbatim_quote": "I want to search for particular image but I cannot search",
+        "search_behavior_validation_issue": true
+      },
+      "latency": 2.0983593463897705,
+      "api_status": 200,
+      "schema_validation_result": "corrected"
+    },
+    {
+      "experiment_id": "CONFIG_A",
+      "model_name": "openai/gpt-oss-120b",
+      "max_tokens": 800,
+      "concurrency": 1,
+      "source_record_id": "play_dc2e8e94-dc16-4dc4-bc57-b815b33f0c8d",
+      "original_text": "sometimes very difficult to find the photos that are saved. The app does not always tell you where it decides to save them so they become hidden photos.",
+      "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":\"retrieval\",\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":\"sometimes very difficult to find the photos that are saved\"}",
+      "parsed_extraction": {
+        "is_retrieval_failure": true,
+        "memory_cues_present": [],
+        "memory_cues_missing": [],
+        "search_behavior": null,
+        "failure_stage": null,
+        "workaround_used": null,
+        "emotional_intensity": null,
+        "outcome": null,
+        "photo_type": null,
+        "verbatim_quote": "sometimes very difficult to find the photos that are saved",
+        "failure_stage_validation_issue": true
+      },
+      "latency": 1.5401582717895508,
+      "api_status": 200,
+      "schema_validation_result": "corrected"
+    },
+    {
+      "experiment_id": "CONFIG_A",
+      "model_name": "openai/gpt-oss-120b",
+      "max_tokens": 800,
+      "concurrency": 1,
+      "source_record_id": "play_1e0546d4-268d-4402-957d-02f20b2be250",
+      "original_text": "In some apps i find it difficult in accessing my photos that are in the Google photo app",
+      "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":\"In some apps i find it difficult in accessing my photos that are in the Google photo app\"}",
+      "parsed_extraction": {
+        "is_retrieval_failure": true,
+        "memory_cues_present": [],
+        "memory_cues_missing": [],
+        "search_behavior": null,
+        "failure_stage": null,
+        "workaround_used": null,
+        "emotional_intensity": null,
+        "outcome": null,
+        "photo_type": null,
+        "verbatim_quote": "In some apps i find it difficult in accessing my photos that are in the Google photo app"
+      },
+      "latency": 3.0381243228912354,
+      "api_status": 200,
+      "schema_validation_result": "valid"
+    },
+    {
+      "experiment_id": "CONFIG_A",
+      "model_name": "openai/gpt-oss-120b",
+      "max_tokens": 800,
+      "concurrency": 1,
+      "source_record_id": "play_ada4c676-9822-4a94-8ebe-e292625e14a9",
+      "original_text": "I love the new Ai additional help in the search bar. However, when I request a search using words I know are included in what I'm looking for, it comes up empty. I know with time this would be improved upon. All in all, I'm still extremely pleased with the app \ud83d\udc4c\ud83c\udffd",
+      "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":\"search using known keywords\",\"failure_stage\":\"retrieval\",\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":\"no results returned\",\"photo_type\":null,\"verbatim_quote\":\"when I request a search using words I know are included in what I'm looking for, it comes up empty\"}",
+      "parsed_extraction": {
+        "is_retrieval_failure": true,
+        "memory_cues_present": [],
+        "memory_cues_missing": [],
+        "search_behavior": null,
+        "failure_stage": null,
+        "workaround_used": null,
+        "emotional_intensity": null,
+        "outcome": null,
+        "photo_type": null,
+        "verbatim_quote": "when I request a search using words I know are included in what I'm looking for, it comes up empty",
+        "search_behavior_validation_issue": true,
+        "failure_stage_validation_issue": true,
+        "outcome_validation_issue": true
+      },
+      "latency": 3.501952886581421,
+      "api_status": 200,
+      "schema_validation_result": "corrected"
+    },
+    {
+      "experiment_id": "CONFIG_A",
+      "model_name": "openai/gpt-oss-120b",
+      "max_tokens": 800,
+      "concurrency": 1,
+      "source_record_id": "play_0935a1a4-f097-4f4a-8281-8d75fdf010a4",
+      "original_text": "Worked fine for years, not anymore. Missing photos, always more control. Bummer.",
+      "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":\"retrieval\",\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":\"Missing photos\"}",
+      "parsed_extraction": {
+        "is_retrieval_failure": true,
+        "memory_cues_present": [],
+        "memory_cues_missing": [],
+        "search_behavior": null,
+        "failure_stage": null,
+        "workaround_used": null,
+        "emotional_intensity": null,
+        "outcome": null,
+        "photo_type": null,
+        "verbatim_quote": "Missing photos",
+        "failure_stage_validation_issue": true
+      },
+      "latency": 1.5265181064605713,
+      "api_status": 200,
+      "schema_validation_result": "corrected"
+    }
+  ]
+}

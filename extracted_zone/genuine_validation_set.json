@@ -1,0 +1,865 @@
+[
+  {
+    "record_id": "hc_24a55aa960b84c718e4569bcebc6b1a0",
+    "source": "help_community",
+    "original_text": "I have hundreds of pictures of my cat, but I can't find the one where he is wearing a hat. The search brings up all cats but not the specific one I want.",
+    "verbatim_quote": "I have hundreds of pictures of my cat, but I can't find the one where he is wearing a hat. The search brings up all cats but not the specific one I want.",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "wearing a hat"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "searching for cat pictures but returns all cats, not the specific one",
+    "failure_stage": "retrieval",
+    "workaround_used": null,
+    "emotional_intensity": null,
+    "outcome": "unable to locate the specific picture",
+    "photo_type": "cat",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:03:27.944702Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"wearing a hat\"],\"memory_cues_missing\":[],\"search_behavior\":\"searching for cat pictures but returns all cats, not the specific one\",\"failure_stage\":\"retrieval\",\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":\"unable to locate the specific picture\",\"photo_type\":\"cat\",\"verbatim_quote\":\"I have hundreds of pictures of my cat, but I can't find the one where he is wearing a hat. The search brings up all cats but not the specific one I want.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "wearing a hat"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "searching for cat pictures but returns all cats, not the specific one",
+      "failure_stage": "retrieval",
+      "workaround_used": null,
+      "emotional_intensity": null,
+      "outcome": "unable to locate the specific picture",
+      "photo_type": "cat",
+      "verbatim_quote": "I have hundreds of pictures of my cat, but I can't find the one where he is wearing a hat. The search brings up all cats but not the specific one I want."
+    }
+  },
+  {
+    "record_id": "play_c8090d30-56c5-4332-b71c-2e00080a60ee",
+    "source": "play_store",
+    "original_text": "lost photo could not recover tried the safe folder and it did not work and u cannot add photos to the collection folders",
+    "verbatim_quote": "lost photo could not recover tried the safe folder and it did not work and u cannot add photos to the collection folders",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "safe folder"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "tried the safe folder",
+    "failure_stage": "retrieval",
+    "workaround_used": "tried the safe folder",
+    "emotional_intensity": null,
+    "outcome": "did not work",
+    "photo_type": "photo",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:03:30.825349Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"safe folder\"],\"memory_cues_missing\":[],\"search_behavior\":\"tried the safe folder\",\"failure_stage\":\"retrieval\",\"workaround_used\":\"tried the safe folder\",\"emotional_intensity\":null,\"outcome\":\"did not work\",\"photo_type\":\"photo\",\"verbatim_quote\":\"lost photo could not recover tried the safe folder and it did not work and u cannot add photos to the collection folders\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "safe folder"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "tried the safe folder",
+      "failure_stage": "retrieval",
+      "workaround_used": "tried the safe folder",
+      "emotional_intensity": null,
+      "outcome": "did not work",
+      "photo_type": "photo",
+      "verbatim_quote": "lost photo could not recover tried the safe folder and it did not work and u cannot add photos to the collection folders"
+    }
+  },
+  {
+    "record_id": "play_8ba40a0d-0230-4e01-a013-aee668bcef63",
+    "source": "play_store",
+    "original_text": "you have stats show high ratings but read the reviews , your apps suck. you lie about how much people hate the apps forced on them through sneaky updates. no one wants your rcs chat, photo, search, Gemini. it's all tainted with blood money and adrenachrome from kids. you present the mark of the beast. hell will be your home",
+    "verbatim_quote": null,
+    "is_retrieval_failure": null,
+    "memory_cues_present": [],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": null,
+    "outcome": null,
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:03:33.279941Z",
+    "raw_model_response": "{\"is_retrieval_failure\":null,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":null}",
+    "parsed_extraction": {
+      "is_retrieval_failure": null,
+      "memory_cues_present": [],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": null,
+      "outcome": null,
+      "photo_type": null,
+      "verbatim_quote": null
+    }
+  },
+  {
+    "record_id": "play_72dcb862-c595-4edf-a0a9-0ba0b9d4519e",
+    "source": "play_store",
+    "original_text": "Pixel 10. ADS SLOP & CLUTTERS PHOTOS into a jumbled mess . Organization is dreadfull. Cannot Sort FOLDERS or PEOPLE by Name, Many important faces NOT FOUND so edit & Create PEOPLE w/name & App still not autoadded But Fuzzy Background Nobody faces are \ud83e\udd2fTEXT/SUBJECT search is FAIL. \"Car Engine\" - have 100s of repair photos But Only 15 Show? Often AI says \"none\"or wonky/useless \"results\" includes ALOT (100s +) irrelevant results. Edited Image cannot be reedited, reverts to original photo\ud83d\ude16",
+    "verbatim_quote": "\"Pixel 10. ADS SLOP & CLUTTERS PHOTOS into a jumbled mess . Organization is dreadfull. Cannot Sort FOLDERS or PEOPLE by Name, Many important faces NOT FOUND so edit & Create PEOPLE w/name & App still not autoadded But Fuzzy Background Nobody faces are \ud83e\udd2fTEXT/SUBJECT search is FAIL. \"Car Engine\" - have 100s of repair photos But Only 15 Show? Often AI says \"none\"or wonky/useless \"results\" includes ALOT (100s +) irrelevant results. Edited Image cannot be reedited, reverts to original photo\ud83d\ude16\"",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "faces",
+      "people",
+      "name",
+      "text/subject search"
+    ],
+    "memory_cues_missing": [
+      "folders",
+      "people by name",
+      "autoadded"
+    ],
+    "search_behavior": "text/subject search",
+    "failure_stage": "search results retrieval",
+    "workaround_used": "edit & create people manually",
+    "emotional_intensity": 4,
+    "outcome": "edited image reverts to original",
+    "photo_type": "car engine repair photos",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:03:36.763242Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"faces\",\"people\",\"name\",\"text/subject search\"],\"memory_cues_missing\":[\"folders\",\"people by name\",\"autoadded\"],\"search_behavior\":\"text/subject search\",\"failure_stage\":\"search results retrieval\",\"workaround_used\":\"edit & create people manually\",\"emotional_intensity\":4,\"outcome\":\"edited image reverts to original\",\"photo_type\":\"car engine repair photos\",\"verbatim_quote\":\"\\\"Pixel 10. ADS SLOP & CLUTTERS PHOTOS into a jumbled mess . Organization is dreadfull. Cannot Sort FOLDERS or PEOPLE by Name, Many important faces NOT FOUND so edit & Create PEOPLE w/name & App still not autoadded But Fuzzy Background Nobody faces are \ud83e\udd2fTEXT/SUBJECT search is FAIL. \\\"Car Engine\\\" - have 100s of repair photos But Only 15 Show? Often AI says \\\"none\\\"or wonky/useless \\\"results\\\" includes ALOT (100s +) irrelevant results. Edited Image cannot be reedited, reverts to original photo\ud83d\ude16\\\"\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "faces",
+        "people",
+        "name",
+        "text/subject search"
+      ],
+      "memory_cues_missing": [
+        "folders",
+        "people by name",
+        "autoadded"
+      ],
+      "search_behavior": "text/subject search",
+      "failure_stage": "search results retrieval",
+      "workaround_used": "edit & create people manually",
+      "emotional_intensity": 4,
+      "outcome": "edited image reverts to original",
+      "photo_type": "car engine repair photos",
+      "verbatim_quote": "\"Pixel 10. ADS SLOP & CLUTTERS PHOTOS into a jumbled mess . Organization is dreadfull. Cannot Sort FOLDERS or PEOPLE by Name, Many important faces NOT FOUND so edit & Create PEOPLE w/name & App still not autoadded But Fuzzy Background Nobody faces are \ud83e\udd2fTEXT/SUBJECT search is FAIL. \"Car Engine\" - have 100s of repair photos But Only 15 Show? Often AI says \"none\"or wonky/useless \"results\" includes ALOT (100s +) irrelevant results. Edited Image cannot be reedited, reverts to original photo\ud83d\ude16\""
+    }
+  },
+  {
+    "record_id": "play_7de472f8-28c6-4954-a410-f7f0722861f1",
+    "source": "play_store",
+    "original_text": "suddenly there are issues with photos disappearing after editing. if you manage to find them and reopen them, edit/share/ask buttons on the bottom no longer function.",
+    "verbatim_quote": "suddenly there are issues with photos disappearing after editing. if you manage to find them and reopen them, edit/share/ask buttons on the bottom no longer function.",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": "after editing",
+    "workaround_used": "find them and reopen them",
+    "emotional_intensity": null,
+    "outcome": "edit/share/ask buttons no longer function",
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:03:39.833107Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":\"after editing\",\"workaround_used\":\"find them and reopen them\",\"emotional_intensity\":null,\"outcome\":\"edit/share/ask buttons no longer function\",\"photo_type\":null,\"verbatim_quote\":\"suddenly there are issues with photos disappearing after editing. if you manage to find them and reopen them, edit/share/ask buttons on the bottom no longer function.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": "after editing",
+      "workaround_used": "find them and reopen them",
+      "emotional_intensity": null,
+      "outcome": "edit/share/ask buttons no longer function",
+      "photo_type": null,
+      "verbatim_quote": "suddenly there are issues with photos disappearing after editing. if you manage to find them and reopen them, edit/share/ask buttons on the bottom no longer function."
+    }
+  },
+  {
+    "record_id": "play_39e310ad-035f-4666-b47d-579dc2936fb0",
+    "source": "play_store",
+    "original_text": "This app being the native photo gallery on Pixel makes me regret converting from Samsung. I hate this app. I hate that I have to sift through Collections to find anything NOT taken directly by the phone camera. It doesn't read an image metadata date - downloaded something from 2011 today? well todat is the date now. I hate not being able to just scroll one Main Gallery. I hate that any editing only saves as a copy, forcing another step to delete the original.",
+    "verbatim_quote": "It doesn't read an image metadata date - downloaded something from 2011 today? well todat is the date now.",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "image metadata date",
+      "downloaded something from 2011"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "sift through Collections",
+    "failure_stage": "metadata reading",
+    "workaround_used": null,
+    "emotional_intensity": 5,
+    "outcome": "regret converting from Samsung",
+    "photo_type": "non-phone camera photos",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:03:46.395748Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"image metadata date\",\"downloaded something from 2011\"],\"memory_cues_missing\":[],\"search_behavior\":\"sift through Collections\",\"failure_stage\":\"metadata reading\",\"workaround_used\":null,\"emotional_intensity\":5,\"outcome\":\"regret converting from Samsung\",\"photo_type\":\"non-phone camera photos\",\"verbatim_quote\":\"It doesn't read an image metadata date - downloaded something from 2011 today? well todat is the date now.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "image metadata date",
+        "downloaded something from 2011"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "sift through Collections",
+      "failure_stage": "metadata reading",
+      "workaround_used": null,
+      "emotional_intensity": 5,
+      "outcome": "regret converting from Samsung",
+      "photo_type": "non-phone camera photos",
+      "verbatim_quote": "It doesn't read an image metadata date - downloaded something from 2011 today? well todat is the date now."
+    }
+  },
+  {
+    "record_id": "play_43a0d86c-0f6c-43c8-934c-e862c866ff9c",
+    "source": "play_store",
+    "original_text": "Give us an option to block the visibility of local content on the app. I want to see ONLY my backed-up photos and avoid local device folders since I already have the Gallery app for that. I hate that I have to scroll through all these unnecessary photos that aren't backed up(for a reason) before I get to the photos that I'm looking for that aren't showing under the search.",
+    "verbatim_quote": "Give us an option to block the visibility of local content on the app. I want to see ONLY my backed-up photos and avoid local device folders since I already have the Gallery app for that. I hate that I have to scroll through all these unnecessary photos that aren't backed up(for a reason) before I get to the photos that I'm looking for that aren't showing under the search.",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "backed-up photos",
+      "local device folders"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "scroll through unnecessary photos to find desired ones",
+    "failure_stage": "search",
+    "workaround_used": "Gallery app",
+    "emotional_intensity": 5,
+    "outcome": "block visibility of local content",
+    "photo_type": "backed-up photos",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:04:02.716242Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"backed-up photos\",\"local device folders\"],\"memory_cues_missing\":[],\"search_behavior\":\"scroll through unnecessary photos to find desired ones\",\"failure_stage\":\"search\",\"workaround_used\":\"Gallery app\",\"emotional_intensity\":5,\"outcome\":\"block visibility of local content\",\"photo_type\":\"backed-up photos\",\"verbatim_quote\":\"Give us an option to block the visibility of local content on the app. I want to see ONLY my backed-up photos and avoid local device folders since I already have the Gallery app for that. I hate that I have to scroll through all these unnecessary photos that aren't backed up(for a reason) before I get to the photos that I'm looking for that aren't showing under the search.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "backed-up photos",
+        "local device folders"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "scroll through unnecessary photos to find desired ones",
+      "failure_stage": "search",
+      "workaround_used": "Gallery app",
+      "emotional_intensity": 5,
+      "outcome": "block visibility of local content",
+      "photo_type": "backed-up photos",
+      "verbatim_quote": "Give us an option to block the visibility of local content on the app. I want to see ONLY my backed-up photos and avoid local device folders since I already have the Gallery app for that. I hate that I have to scroll through all these unnecessary photos that aren't backed up(for a reason) before I get to the photos that I'm looking for that aren't showing under the search."
+    }
+  },
+  {
+    "record_id": "play_821b9c14-cf6b-4c54-8c7a-6d0b10048fc0",
+    "source": "play_store",
+    "original_text": "Can't find my device photos even if I backed everything up. I can't also find it in my files. I didn't even \"accidentally\" delete it. Please fix this issue. I don't know what to do. Tried clearing the cache. The photos were very important to me.",
+    "verbatim_quote": "Can't find my device photos even if I backed everything up. I can't also find it in my files. I didn't even \"accidentally\" delete it. Please fix this issue. I don't know what to do. Tried clearing the cache. The photos were very important to me.",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "backed everything up",
+      "accidentally delete",
+      "clearing the cache"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "searched in files",
+    "failure_stage": "retrieval",
+    "workaround_used": "clearing the cache",
+    "emotional_intensity": 4,
+    "outcome": "photos missing",
+    "photo_type": "device photos",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:04:16.100723Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"backed everything up\",\"accidentally delete\",\"clearing the cache\"],\"memory_cues_missing\":[],\"search_behavior\":\"searched in files\",\"failure_stage\":\"retrieval\",\"workaround_used\":\"clearing the cache\",\"emotional_intensity\":4,\"outcome\":\"photos missing\",\"photo_type\":\"device photos\",\"verbatim_quote\":\"Can't find my device photos even if I backed everything up. I can't also find it in my files. I didn't even \\\"accidentally\\\" delete it. Please fix this issue. I don't know what to do. Tried clearing the cache. The photos were very important to me.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "backed everything up",
+        "accidentally delete",
+        "clearing the cache"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "searched in files",
+      "failure_stage": "retrieval",
+      "workaround_used": "clearing the cache",
+      "emotional_intensity": 4,
+      "outcome": "photos missing",
+      "photo_type": "device photos",
+      "verbatim_quote": "Can't find my device photos even if I backed everything up. I can't also find it in my files. I didn't even \"accidentally\" delete it. Please fix this issue. I don't know what to do. Tried clearing the cache. The photos were very important to me."
+    }
+  },
+  {
+    "record_id": "play_3faa0e9e-69df-4df8-afb2-7db4752654a7",
+    "source": "play_store",
+    "original_text": "Terrible software. Not only will it delete photos from the device without express consent but it is a bad UI that makes it hard to find shares! taking away info and training AI on my photos..",
+    "verbatim_quote": "Not only will it delete photos from the device without express consent but it is a bad UI that makes it hard to find shares! taking away info and training AI on my photos..",
+    "is_retrieval_failure": null,
+    "memory_cues_present": [
+      "delete photos from the device without express consent",
+      "bad UI that makes it hard to find shares",
+      "training AI on my photos"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": 5,
+    "outcome": "photos deleted without consent",
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:04:31.053149Z",
+    "raw_model_response": "{\"is_retrieval_failure\":null,\"memory_cues_present\":[\"delete photos from the device without express consent\",\"bad UI that makes it hard to find shares\",\"training AI on my photos\"],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":5,\"outcome\":\"photos deleted without consent\",\"photo_type\":null,\"verbatim_quote\":\"Not only will it delete photos from the device without express consent but it is a bad UI that makes it hard to find shares! taking away info and training AI on my photos..\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": null,
+      "memory_cues_present": [
+        "delete photos from the device without express consent",
+        "bad UI that makes it hard to find shares",
+        "training AI on my photos"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": 5,
+      "outcome": "photos deleted without consent",
+      "photo_type": null,
+      "verbatim_quote": "Not only will it delete photos from the device without express consent but it is a bad UI that makes it hard to find shares! taking away info and training AI on my photos.."
+    }
+  },
+  {
+    "record_id": "play_942c4795-6c73-47ba-8de5-df1a59160977",
+    "source": "play_store",
+    "original_text": "Whoever designed this was linguistically challenged. Stop using so many synonyms. Images, photos, pictures, is all the SAME thing!!! If there's a way to be ignorant, people will find it. You star a photo and can't find it elsewhere. It gets filed under collections that doesn't show up everywhere either. Then you run into a stupid folder called favorites. Starred and favorites is the SAME thing. This is a display of massive lack of intelligence.",
+    "verbatim_quote": "You star a photo and can't find it elsewhere.",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "star",
+      "favorites",
+      "collections"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "searching for starred photo",
+    "failure_stage": "retrieval",
+    "workaround_used": null,
+    "emotional_intensity": 5,
+    "outcome": "photo not found",
+    "photo_type": "photo",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:04:44.890399Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"star\",\"favorites\",\"collections\"],\"memory_cues_missing\":[],\"search_behavior\":\"searching for starred photo\",\"failure_stage\":\"retrieval\",\"workaround_used\":null,\"emotional_intensity\":5,\"outcome\":\"photo not found\",\"photo_type\":\"photo\",\"verbatim_quote\":\"You star a photo and can't find it elsewhere.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "star",
+        "favorites",
+        "collections"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "searching for starred photo",
+      "failure_stage": "retrieval",
+      "workaround_used": null,
+      "emotional_intensity": 5,
+      "outcome": "photo not found",
+      "photo_type": "photo",
+      "verbatim_quote": "You star a photo and can't find it elsewhere."
+    }
+  },
+  {
+    "record_id": "play_95944e41-ece9-4737-9e8e-53eaddad6df6",
+    "source": "play_store",
+    "original_text": "The photos app is this the best. But the recent update has removed the face groups. I can search them by name but i can not see the face groups in search button of new layout. Love the new app layout and design. Please fix the face groups option.",
+    "verbatim_quote": "I can search them by name but i can not see the face groups in search button of new layout. Please fix the face groups option.",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "name",
+      "face groups"
+    ],
+    "memory_cues_missing": [
+      "face groups in search button"
+    ],
+    "search_behavior": "search by name",
+    "failure_stage": "search",
+    "workaround_used": "search by name",
+    "emotional_intensity": 3,
+    "outcome": "fix face groups option",
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:04:56.260754Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"name\",\"face groups\"],\"memory_cues_missing\":[\"face groups in search button\"],\"search_behavior\":\"search by name\",\"failure_stage\":\"search\",\"workaround_used\":\"search by name\",\"emotional_intensity\":3,\"outcome\":\"fix face groups option\",\"photo_type\":null,\"verbatim_quote\":\"I can search them by name but i can not see the face groups in search button of new layout. Please fix the face groups option.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "name",
+        "face groups"
+      ],
+      "memory_cues_missing": [
+        "face groups in search button"
+      ],
+      "search_behavior": "search by name",
+      "failure_stage": "search",
+      "workaround_used": "search by name",
+      "emotional_intensity": 3,
+      "outcome": "fix face groups option",
+      "photo_type": null,
+      "verbatim_quote": "I can search them by name but i can not see the face groups in search button of new layout. Please fix the face groups option."
+    }
+  },
+  {
+    "record_id": "play_bb0d6240-b6bd-4a18-a0e3-91a58493de87",
+    "source": "play_store",
+    "original_text": "\u200b\ud83d\udcf8 The absolute best photo management and cloud backup app! \u2601\ufe0f\u2728 Ultra-smart search finds specific memories in seconds \ud83d\udd0d, while AI editing tools like Magic Eraser work wonders! \ud83e\ude84 Seamless auto-backup keeps all your priceless photos and videos safe forever. \ud83d\ude80 Pure perfection! \ud83c\udf1f",
+    "verbatim_quote": "\ud83d\udcf8 The absolute best photo management and cloud backup app! \u2601\ufe0f\u2728 Ultra-smart search finds specific memories in seconds \ud83d\udd0d, while AI editing tools like Magic Eraser work wonders! \ud83e\ude84 Seamless auto-backup keeps all your priceless photos and videos safe forever. \ud83d\ude80 Pure perfection! \ud83c\udf1f",
+    "is_retrieval_failure": false,
+    "memory_cues_present": [
+      "specific memories"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "search finds specific memories in seconds",
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": 5,
+    "outcome": "Pure perfection",
+    "photo_type": "photos and videos",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:05:09.486418Z",
+    "raw_model_response": "{\"is_retrieval_failure\":false,\"memory_cues_present\":[\"specific memories\"],\"memory_cues_missing\":[],\"search_behavior\":\"search finds specific memories in seconds\",\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":5,\"outcome\":\"Pure perfection\",\"photo_type\":\"photos and videos\",\"verbatim_quote\":\"\ud83d\udcf8 The absolute best photo management and cloud backup app! \u2601\ufe0f\u2728 Ultra-smart search finds specific memories in seconds \ud83d\udd0d, while AI editing tools like Magic Eraser work wonders! \ud83e\ude84 Seamless auto-backup keeps all your priceless photos and videos safe forever. \ud83d\ude80 Pure perfection! \ud83c\udf1f\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": false,
+      "memory_cues_present": [
+        "specific memories"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "search finds specific memories in seconds",
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": 5,
+      "outcome": "Pure perfection",
+      "photo_type": "photos and videos",
+      "verbatim_quote": "\ud83d\udcf8 The absolute best photo management and cloud backup app! \u2601\ufe0f\u2728 Ultra-smart search finds specific memories in seconds \ud83d\udd0d, while AI editing tools like Magic Eraser work wonders! \ud83e\ude84 Seamless auto-backup keeps all your priceless photos and videos safe forever. \ud83d\ude80 Pure perfection! \ud83c\udf1f"
+    }
+  },
+  {
+    "record_id": "play_766ed5c2-ce31-45eb-b5e8-f178459452c2",
+    "source": "play_store",
+    "original_text": "VERY NICE APP FOR USING AI IN GALLERY BUT SOMETIME WHEN UPDATE OR REINSTALL PHOTOS APP ALL AI FEATURES MISSING AND NOT AVAILABLE MAGIC EDITOR BUT REINSTALL SECOND OR THIRD TIME IT APPEAR.KINDLY FIX IT",
+    "verbatim_quote": "VERY NICE APP FOR USING AI IN GALLERY BUT SOMETIME WHEN UPDATE OR REINSTALL PHOTOS APP ALL AI FEATURES MISSING AND NOT AVAILABLE MAGIC EDITOR BUT REINSTALL SECOND OR THIRD TIME IT APPEAR.KINDLY FIX IT",
+    "is_retrieval_failure": null,
+    "memory_cues_present": [
+      "UPDATE",
+      "REINSTALL PHOTOS APP"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": "AI features missing",
+    "workaround_used": "Reinstall second or third time",
+    "emotional_intensity": 3,
+    "outcome": "AI features missing initially, reappear after reinstall",
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:05:18.493963Z",
+    "raw_model_response": "{\"is_retrieval_failure\":null,\"memory_cues_present\":[\"UPDATE\",\"REINSTALL PHOTOS APP\"],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":\"AI features missing\",\"workaround_used\":\"Reinstall second or third time\",\"emotional_intensity\":3,\"outcome\":\"AI features missing initially, reappear after reinstall\",\"photo_type\":null,\"verbatim_quote\":\"VERY NICE APP FOR USING AI IN GALLERY BUT SOMETIME WHEN UPDATE OR REINSTALL PHOTOS APP ALL AI FEATURES MISSING AND NOT AVAILABLE MAGIC EDITOR BUT REINSTALL SECOND OR THIRD TIME IT APPEAR.KINDLY FIX IT\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": null,
+      "memory_cues_present": [
+        "UPDATE",
+        "REINSTALL PHOTOS APP"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": "AI features missing",
+      "workaround_used": "Reinstall second or third time",
+      "emotional_intensity": 3,
+      "outcome": "AI features missing initially, reappear after reinstall",
+      "photo_type": null,
+      "verbatim_quote": "VERY NICE APP FOR USING AI IN GALLERY BUT SOMETIME WHEN UPDATE OR REINSTALL PHOTOS APP ALL AI FEATURES MISSING AND NOT AVAILABLE MAGIC EDITOR BUT REINSTALL SECOND OR THIRD TIME IT APPEAR.KINDLY FIX IT"
+    }
+  },
+  {
+    "record_id": "play_68b71919-0f8e-405d-8556-bb7747e8bc9c",
+    "source": "play_store",
+    "original_text": "recovering photos always missing",
+    "verbatim_quote": "recovering photos always missing",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": null,
+    "outcome": null,
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:05:28.131253Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":\"recovering photos always missing\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": null,
+      "outcome": null,
+      "photo_type": null,
+      "verbatim_quote": "recovering photos always missing"
+    }
+  },
+  {
+    "record_id": "play_baae6c40-9512-4fd1-b632-33ef151faaed",
+    "source": "play_store",
+    "original_text": "it saves you pictures from one phone to the other. but I still have old pitchers and videos I can't find?",
+    "verbatim_quote": "it saves you pictures from one phone to the other. but I still have old pitchers and videos I can't find?",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "old pitchers",
+      "videos"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": null,
+    "outcome": null,
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:05:37.444511Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"old pitchers\",\"videos\"],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":\"it saves you pictures from one phone to the other. but I still have old pitchers and videos I can't find?\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "old pitchers",
+        "videos"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": null,
+      "outcome": null,
+      "photo_type": null,
+      "verbatim_quote": "it saves you pictures from one phone to the other. but I still have old pitchers and videos I can't find?"
+    }
+  },
+  {
+    "record_id": "play_b2cb44e5-c367-4d98-b987-c146e591fb06",
+    "source": "play_store",
+    "original_text": "I like the feature that creates memories. It reminds me to enjoy your old photos. The problem is that it isn't it possible to create a movie using an Album. You have to scroll through all your photos which, quickly becomes tiresome. Please fix this. Also there should be an option to keep something on your device even if you delete it from Google photos as some pictures may be needed but not stored forever.",
+    "verbatim_quote": "I like the feature that creates memories. It reminds me to enjoy your old photos. The problem is that it isn't it possible to create a movie using an Album. You have to scroll through all your photos which, quickly becomes tiresome. Please fix this. Also there should be an option to keep something on your device even if you delete it from Google photos as some pictures may be needed but not stored forever.",
+    "is_retrieval_failure": false,
+    "memory_cues_present": [
+      "memories",
+      "old photos"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "scrolling through photos",
+    "failure_stage": "movie creation using album",
+    "workaround_used": null,
+    "emotional_intensity": 3,
+    "outcome": "request for fix",
+    "photo_type": "old photos",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:05:49.736755Z",
+    "raw_model_response": "{\"is_retrieval_failure\":false,\"memory_cues_present\":[\"memories\",\"old photos\"],\"memory_cues_missing\":[],\"search_behavior\":\"scrolling through photos\",\"failure_stage\":\"movie creation using album\",\"workaround_used\":null,\"emotional_intensity\":3,\"outcome\":\"request for fix\",\"photo_type\":\"old photos\",\"verbatim_quote\":\"I like the feature that creates memories. It reminds me to enjoy your old photos. The problem is that it isn't it possible to create a movie using an Album. You have to scroll through all your photos which, quickly becomes tiresome. Please fix this. Also there should be an option to keep something on your device even if you delete it from Google photos as some pictures may be needed but not stored forever.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": false,
+      "memory_cues_present": [
+        "memories",
+        "old photos"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "scrolling through photos",
+      "failure_stage": "movie creation using album",
+      "workaround_used": null,
+      "emotional_intensity": 3,
+      "outcome": "request for fix",
+      "photo_type": "old photos",
+      "verbatim_quote": "I like the feature that creates memories. It reminds me to enjoy your old photos. The problem is that it isn't it possible to create a movie using an Album. You have to scroll through all your photos which, quickly becomes tiresome. Please fix this. Also there should be an option to keep something on your device even if you delete it from Google photos as some pictures may be needed but not stored forever."
+    }
+  },
+  {
+    "record_id": "play_73af40d5-b26c-4e64-8f37-73f4104bab1d",
+    "source": "play_store",
+    "original_text": "helps to find old days photos too easily",
+    "verbatim_quote": "helps to find old days photos too easily",
+    "is_retrieval_failure": false,
+    "memory_cues_present": [
+      "old days"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "searching for old days photos",
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": null,
+    "outcome": "successfully found old photos",
+    "photo_type": "old days photos",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:06:03.004486Z",
+    "raw_model_response": "{\"is_retrieval_failure\":false,\"memory_cues_present\":[\"old days\"],\"memory_cues_missing\":[],\"search_behavior\":\"searching for old days photos\",\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":\"successfully found old photos\",\"photo_type\":\"old days photos\",\"verbatim_quote\":\"helps to find old days photos too easily\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": false,
+      "memory_cues_present": [
+        "old days"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "searching for old days photos",
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": null,
+      "outcome": "successfully found old photos",
+      "photo_type": "old days photos",
+      "verbatim_quote": "helps to find old days photos too easily"
+    }
+  },
+  {
+    "record_id": "play_132bc40c-aa95-4ff2-be43-0290b25c5c5e",
+    "source": "play_store",
+    "original_text": "Dont know who the 'smart guy' who decided to remove the share button when selecting multiple items is but it is absolutly horrendus, I share photos and videos to specified folders in my Google Drive daily as backup and I use this app to do so but now that option does not show up at all in the pull up menu, not even with 2 photos selected, now have to manually scroll through each individual photo and upload them one by one to Google Drive instead of selecting multiple at a time, crazy bad design",
+    "verbatim_quote": "now that option does not show up at all in the pull up menu, not even with 2 photos selected, now have to manually scroll through each individual photo and upload them one by one to Google Drive",
+    "is_retrieval_failure": false,
+    "memory_cues_present": [
+      "share button",
+      "multiple items",
+      "Google Drive",
+      "pull up menu",
+      "2 photos selected",
+      "upload them one by one"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": "manually scroll through each individual photo and upload them one by one to Google Drive",
+    "emotional_intensity": 4,
+    "outcome": "share button removed, forced to upload photos individually",
+    "photo_type": "photos and videos",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:06:08.835855Z",
+    "raw_model_response": "{\"is_retrieval_failure\":false,\"memory_cues_present\":[\"share button\",\"multiple items\",\"Google Drive\",\"pull up menu\",\"2 photos selected\",\"upload them one by one\"],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":\"manually scroll through each individual photo and upload them one by one to Google Drive\",\"emotional_intensity\":4,\"outcome\":\"share button removed, forced to upload photos individually\",\"photo_type\":\"photos and videos\",\"verbatim_quote\":\"now that option does not show up at all in the pull up menu, not even with 2 photos selected, now have to manually scroll through each individual photo and upload them one by one to Google Drive\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": false,
+      "memory_cues_present": [
+        "share button",
+        "multiple items",
+        "Google Drive",
+        "pull up menu",
+        "2 photos selected",
+        "upload them one by one"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": null,
+      "workaround_used": "manually scroll through each individual photo and upload them one by one to Google Drive",
+      "emotional_intensity": 4,
+      "outcome": "share button removed, forced to upload photos individually",
+      "photo_type": "photos and videos",
+      "verbatim_quote": "now that option does not show up at all in the pull up menu, not even with 2 photos selected, now have to manually scroll through each individual photo and upload them one by one to Google Drive"
+    }
+  },
+  {
+    "record_id": "play_3f671bb5-a14d-43e8-b539-6a0c2d5fa777",
+    "source": "play_store",
+    "original_text": "my photos disappeared from this app downloaded it again not sure it is safe.Used it for a long time then became malicious.Will give it onelast try",
+    "verbatim_quote": "my photos disappeared from this app downloaded it again not sure it is safe.Used it for a long time then became malicious.Will give it onelast try",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "Used it for a long time"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": "photos disappeared",
+    "workaround_used": "downloaded it again",
+    "emotional_intensity": null,
+    "outcome": "Will give it one last try",
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:06:22.287303Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"Used it for a long time\"],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":\"photos disappeared\",\"workaround_used\":\"downloaded it again\",\"emotional_intensity\":null,\"outcome\":\"Will give it one last try\",\"photo_type\":null,\"verbatim_quote\":\"my photos disappeared from this app downloaded it again not sure it is safe.Used it for a long time then became malicious.Will give it onelast try\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "Used it for a long time"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": "photos disappeared",
+      "workaround_used": "downloaded it again",
+      "emotional_intensity": null,
+      "outcome": "Will give it one last try",
+      "photo_type": null,
+      "verbatim_quote": "my photos disappeared from this app downloaded it again not sure it is safe.Used it for a long time then became malicious.Will give it onelast try"
+    }
+  },
+  {
+    "record_id": "play_b01a827b-6a87-4cb7-9980-d40327dad64d",
+    "source": "play_store",
+    "original_text": "I lost my old phone and was really worried about all the photos saved on it. Thank God, I found all my precious photos safely backed up in Google Photos. I\u2019m so grateful.\u2764\ufe0f",
+    "verbatim_quote": null,
+    "is_retrieval_failure": null,
+    "memory_cues_present": [],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": null,
+    "outcome": null,
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:06:36.467128Z",
+    "raw_model_response": "Error code: 400 - {'error': {'message': \"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}",
+    "parsed_extraction": {}
+  },
+  {
+    "record_id": "play_76f8b287-999e-4009-b468-dd0a75e74db2",
+    "source": "play_store",
+    "original_text": "I find the structured layout, editing tools, and Ask photos helpful. I also am liking the photo & video remix features.",
+    "verbatim_quote": "I find the structured layout, editing tools, and Ask photos helpful. I also am liking the photo & video remix features.",
+    "is_retrieval_failure": false,
+    "memory_cues_present": [],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": 2,
+    "outcome": null,
+    "photo_type": "Ask photos",
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:06:49.656238Z",
+    "raw_model_response": "{\"is_retrieval_failure\":false,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":2,\"outcome\":null,\"photo_type\":\"Ask photos\",\"verbatim_quote\":\"I find the structured layout, editing tools, and Ask photos helpful. I also am liking the photo & video remix features.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": false,
+      "memory_cues_present": [],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": 2,
+      "outcome": null,
+      "photo_type": "Ask photos",
+      "verbatim_quote": "I find the structured layout, editing tools, and Ask photos helpful. I also am liking the photo & video remix features."
+    }
+  },
+  {
+    "record_id": "play_78b173b0-41f7-49ec-9945-cd7550cb7cc6",
+    "source": "play_store",
+    "original_text": "Google Photos is a convenient and reliable app for storing, organizing, and managing photos and videos. I really like the automatic backup, smart search, albums, and easy sharing features. The ability to search for specific people, places, or things makes finding old photos much easier. I also enjoy the editing tools, memories, and helpful suggestions for creating collages and other photo creations. Overall, Google Photos makes it easy to keep precious memories organized and backed up.",
+    "verbatim_quote": null,
+    "is_retrieval_failure": null,
+    "memory_cues_present": [],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": null,
+    "outcome": null,
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:07:02.205998Z",
+    "raw_model_response": "{\"is_retrieval_failure\":null,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":null}",
+    "parsed_extraction": {
+      "is_retrieval_failure": null,
+      "memory_cues_present": [],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": null,
+      "outcome": null,
+      "photo_type": null,
+      "verbatim_quote": null
+    }
+  },
+  {
+    "record_id": "play_8f47ea6d-59d2-4c1d-b2e3-90c8bb14978d",
+    "source": "play_store",
+    "original_text": "good \ud83d\udc4d edit : I can't find the photo to video thing and I really liked it so If you can add it back I will definitely put more stars but for now only 2. edit: ok this is sooo much better",
+    "verbatim_quote": "good \ud83d\udc4d edit : I can't find the photo to video thing and I really liked it so If you can add it back I will definitely put more stars but for now only 2. edit: ok this is sooo much better",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "photo to video thing"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": null,
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": 3,
+    "outcome": "User will increase rating if feature restored.",
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:07:09.511560Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"photo to video thing\"],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":3,\"outcome\":\"User will increase rating if feature restored.\",\"photo_type\":null,\"verbatim_quote\":\"good \ud83d\udc4d edit : I can't find the photo to video thing and I really liked it so If you can add it back I will definitely put more stars but for now only 2. edit: ok this is sooo much better\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "photo to video thing"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": null,
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": 3,
+      "outcome": "User will increase rating if feature restored.",
+      "photo_type": null,
+      "verbatim_quote": "good \ud83d\udc4d edit : I can't find the photo to video thing and I really liked it so If you can add it back I will definitely put more stars but for now only 2. edit: ok this is sooo much better"
+    }
+  },
+  {
+    "record_id": "play_1090baf2-016a-4b33-8590-bcd0fe46d92e",
+    "source": "play_store",
+    "original_text": "where is my photos!!!",
+    "verbatim_quote": "where is my photos!!!",
+    "is_retrieval_failure": true,
+    "memory_cues_present": [
+      "my photos"
+    ],
+    "memory_cues_missing": [],
+    "search_behavior": "searching for photos",
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": 4,
+    "outcome": null,
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:07:21.449210Z",
+    "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[\"my photos\"],\"memory_cues_missing\":[],\"search_behavior\":\"searching for photos\",\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":4,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":\"where is my photos!!!\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": true,
+      "memory_cues_present": [
+        "my photos"
+      ],
+      "memory_cues_missing": [],
+      "search_behavior": "searching for photos",
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": 4,
+      "outcome": null,
+      "photo_type": null,
+      "verbatim_quote": "where is my photos!!!"
+    }
+  },
+  {
+    "record_id": "play_c5b0e510-540c-4627-b36f-232e9a309a17",
+    "source": "play_store",
+    "original_text": "Serves as a top-tier digital archive and secondary media backup solution.Its facial recognition,contextual search and automated cloud sync options simplify photo management,making image retrieval effortless.",
+    "verbatim_quote": "Serves as a top-tier digital archive and secondary media backup solution.Its facial recognition,contextual search and automated cloud sync options simplify photo management,making image retrieval effortless.",
+    "is_retrieval_failure": false,
+    "memory_cues_present": [],
+    "memory_cues_missing": [],
+    "search_behavior": "facial recognition and contextual search",
+    "failure_stage": null,
+    "workaround_used": null,
+    "emotional_intensity": null,
+    "outcome": "image retrieval effortless",
+    "photo_type": null,
+    "model_name": "openai/gpt-oss-20b",
+    "extraction_timestamp": "2026-09-24T19:07:30.254808Z",
+    "raw_model_response": "{\"is_retrieval_failure\":false,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":\"facial recognition and contextual search\",\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":\"image retrieval effortless\",\"photo_type\":null,\"verbatim_quote\":\"Serves as a top-tier digital archive and secondary media backup solution.Its facial recognition,contextual search and automated cloud sync options simplify photo management,making image retrieval effortless.\"}",
+    "parsed_extraction": {
+      "is_retrieval_failure": false,
+      "memory_cues_present": [],
+      "memory_cues_missing": [],
+      "search_behavior": "facial recognition and contextual search",
+      "failure_stage": null,
+      "workaround_used": null,
+      "emotional_intensity": null,
+      "outcome": "image retrieval effortless",
+      "photo_type": null,
+      "verbatim_quote": "Serves as a top-tier digital archive and secondary media backup solution.Its facial recognition,contextual search and automated cloud sync options simplify photo management,making image retrieval effortless."
+    }
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "metrics": {
+    "successful_requests": 1,
+    "json_errors": 0,
+    "429_errors": 0,
+    "other_errors": 4,
+    "latencies": [
+      1.1146392822265625
+    ],
+    "schema_corrected_count": 0,
+    "null_fields": 4,
+    "total_fields": 6,
+    "total_elapsed_time": 6.615355968475342,
+    "requests_per_minute": 9.069806717268513,
+    "avg_latency": 1.1146392822265625,
+    "median_latency": 1.1146392822265625
+  },
+  "results": [
+    {
+      "experiment_id": "CONFIG_B",
+      "model_name": "openai/gpt-oss-20b",
+      "max_tokens": 800,
+      "concurrency": 1,
+      "source_record_id": "play_1e0546d4-268d-4402-957d-02f20b2be250",
+      "original_text": "In some apps i find it difficult in accessing my photos that are in the Google photo app",
+      "raw_model_response": "{\"is_retrieval_failure\":true,\"memory_cues_present\":[],\"memory_cues_missing\":[],\"search_behavior\":null,\"failure_stage\":null,\"workaround_used\":null,\"emotional_intensity\":null,\"outcome\":null,\"photo_type\":null,\"verbatim_quote\":\"In some apps i find it difficult in accessing my photos that are in the Google photo app\"}",
+      "parsed_extraction": {
+        "is_retrieval_failure": true,
+        "memory_cues_present": [],
+        "memory_cues_missing": [],
+        "search_behavior": null,
+        "failure_stage": null,
+        "workaround_used": null,
+        "emotional_intensity": null,
+        "outcome": null,
+        "photo_type": null,
+        "verbatim_quote": "In some apps i find it difficult in accessing my photos that are in the Google photo app"
+      },
+      "latency": 1.1146392822265625,
+      "api_status": 200,
+      "schema_validation_result": "valid"
+    }
+  ]
+}

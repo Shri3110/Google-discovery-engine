@@ -205,3 +205,8 @@ async function runDiscovery() {
         insightContent.innerHTML = `<p style="color: #ef4444">An error occurred while generating insights.</p>`;
     }
 }
+
+// Make functions available globally so onclick attributes in index.html work
+window.setQuery = setQuery;
+window.handleEnter = handleEnter;
+window.runDiscovery = runDiscovery;

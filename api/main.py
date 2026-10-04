@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import urllib.request
 from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -169,9 +170,6 @@ Return concise Markdown with:
 
         try:
             system_msg = "You are a product research analyst analyzing real Google Photos user evidence.\n\nAnswer ONLY from the evidence provided below.\n\nDo not use outside knowledge.\nDo not invent user complaints.\nDo not invent quotes.\nDo not invent statistics.\n\nFor each finding:\n- explain what the evidence shows\n- distinguish what users remember from what they forget\n- identify the retrieval failure if supported\n- cite the record IDs\n\nIf the evidence does not support a conclusion, explicitly say so."
-            
-            import urllib.request
-            import json
             
             groq_key = os.environ.get("GROQ_API_KEY", "mock_key")
             url = "https://api.groq.com/openai/v1/chat/completions"

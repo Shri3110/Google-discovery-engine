@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/ask",
+      "destination": "https://google-discovery-engine-production.up.railway.app/ask"
+    },
+    {
+      "source": "/stats",
+      "destination": "https://google-discovery-engine-production.up.railway.app/stats"
+    },
+    {
+      "source": "/clusters",
+      "destination": "https://google-discovery-engine-production.up.railway.app/clusters"
+    },
+    {
+      "source": "/search",
+      "destination": "https://google-discovery-engine-production.up.railway.app/search"
+    }
+  ]
+}

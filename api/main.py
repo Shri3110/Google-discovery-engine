@@ -170,35 +170,29 @@ Return concise Markdown with:
         try:
             system_msg = "You are a product research analyst analyzing real Google Photos user evidence.\n\nAnswer ONLY from the evidence provided below.\n\nDo not use outside knowledge.\nDo not invent user complaints.\nDo not invent quotes.\nDo not invent statistics.\n\nFor each finding:\n- explain what the evidence shows\n- distinguish what users remember from what they forget\n- identify the retrieval failure if supported\n- cite the record IDs\n\nIf the evidence does not support a conclusion, explicitly say so."
             
-            try:
-                # Try Groq first
-                res = client.chat.completions.create(
-                    messages=[
-                        {"role": "system", "content": system_msg},
-                        {"role": "user", "content": prompt}
-                    ],
-                    model="qwen/qwen3.8-27b",
-                    temperature=0.0,
-                    max_tokens=800
-                )
-                analysis_text = res.choices[0].message.content
-            except Exception as groq_err:
-                print(f"Groq failed ({groq_err}), falling back to Gemini...")
-                # Fallback to Gemini REST API to bypass SDK/Cloudflare issues on Railway
-                import urllib.request
-                import json
-                gemini_key = os.environ.get("GEMINI_API_KEY_1")
-                if not gemini_key:
-                    raise Exception(f"Groq failed with '{groq_err}' and no Gemini key available for fallback.")
-                
-                url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={gemini_key}"
-                data = json.dumps({
-                    "contents": [{"parts": [{"text": system_msg + "\n\n" + prompt}]}]
-                }).encode("utf-8")
-                req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
-                with urllib.request.urlopen(req, timeout=30) as response:
-                    resp_data = json.loads(response.read().decode())
-                    analysis_text = resp_data["candidates"][0]["content"]["parts"][0]["text"]
+            import urllib.request
+            import json
+            
+            groq_key = os.environ.get("GROQ_API_KEY", "mock_key")
+            url = "https://api.groq.com/openai/v1/chat/completions"
+            headers = {
+                "Authorization": f"Bearer {groq_key}",
+                "Content-Type": "application/json"
+            }
+            data = json.dumps({
+                "model": "qwen/qwen3.8-27b",
+                "temperature": 0.0,
+                "max_tokens": 800,
+                "messages": [
+                    {"role": "system", "content": system_msg},
+                    {"role": "user", "content": prompt}
+                ]
+            }).encode("utf-8")
+            
+            req = urllib.request.Request(url, data=data, headers=headers)
+            with urllib.request.urlopen(req, timeout=30) as response:
+                resp_data = json.loads(response.read().decode())
+                analysis_text = resp_data["choices"][0]["message"]["content"]
 
             analysis_dict = {"markdown_analysis": analysis_text}
             

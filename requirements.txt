@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+groq
+python-dotenv
+chromadb
+sentence-transformers
+praw
+google-api-python-client

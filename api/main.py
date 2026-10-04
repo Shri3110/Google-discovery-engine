@@ -1,7 +1,6 @@
 import os
 import sys
 import json
-import urllib.request
 from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -171,27 +170,21 @@ Return concise Markdown with:
         try:
             system_msg = "You are a product research analyst analyzing real Google Photos user evidence.\n\nAnswer ONLY from the evidence provided below.\n\nDo not use outside knowledge.\nDo not invent user complaints.\nDo not invent quotes.\nDo not invent statistics.\n\nFor each finding:\n- explain what the evidence shows\n- distinguish what users remember from what they forget\n- identify the retrieval failure if supported\n- cite the record IDs\n\nIf the evidence does not support a conclusion, explicitly say so."
             
-            groq_key = os.environ.get("GROQ_API_KEY", "mock_key")
-            url = "https://api.groq.com/openai/v1/chat/completions"
-            headers = {
-                "Authorization": f"Bearer {groq_key}",
-                "Content-Type": "application/json"
-            }
-            data = json.dumps({
-                "model": "qwen/qwen3.8-27b",
-                "temperature": 0.0,
-                "max_tokens": 800,
-                "messages": [
+            # Remove any accidental newlines or spaces from the user's API key
+            groq_key = os.environ.get("GROQ_API_KEY", "mock_key").strip()
+            client = Groq(api_key=groq_key)
+            
+            res = client.chat.completions.create(
+                messages=[
                     {"role": "system", "content": system_msg},
                     {"role": "user", "content": prompt}
-                ]
-            }).encode("utf-8")
+                ],
+                model="qwen/qwen3.8-27b",
+                temperature=0.0,
+                max_tokens=800
+            )
+            analysis_text = res.choices[0].message.content
             
-            req = urllib.request.Request(url, data=data, headers=headers)
-            with urllib.request.urlopen(req, timeout=30) as response:
-                resp_data = json.loads(response.read().decode())
-                analysis_text = resp_data["choices"][0]["message"]["content"]
-
             analysis_dict = {"markdown_analysis": analysis_text}
             
         except Exception as api_err:

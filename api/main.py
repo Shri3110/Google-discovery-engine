@@ -142,7 +142,6 @@ def ask_natural_language(query: AskQuery):
                 "source_url": "internal_db",
                 "memory_cues_present": mem_present,
                 "memory_cues_missing": mem_missing,
-                "search_behavior": meta.get("search_behavior"),
                 "failure_stage": meta.get("failure_stage"),
                 "outcome": meta.get("outcome"),
                 "verbatim_quote": meta.get("verbatim_quote")

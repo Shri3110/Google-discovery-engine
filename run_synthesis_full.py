@@ -58,7 +58,6 @@ def run_synthesis():
                 "photo_type": meta_dict.get("photo_type"),
                 "memory_cues_present": meta_dict.get("memory_cues_present", "[]"),
                 "memory_cues_missing": meta_dict.get("memory_cues_missing", "[]"),
-                "search_behavior": meta_dict.get("search_behavior"),
                 "failure_stage": meta_dict.get("failure_stage"),
                 "outcome": meta_dict.get("outcome"),
                 "workaround_used": meta_dict.get("workaround_used"),
